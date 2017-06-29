@@ -6,31 +6,31 @@ project illustrating Java swagger rest api, mongodb persistence, and angular4 cl
 
 Add Maven Support
 
-> * [Edit pom.xml]()
-> * [Edit web.xml]()
-> * [SwaggerBootstrap.java]()
-> * [ApiOriginFilter.java]()
-> * [AllAuthorizationFilterImpl.java]()
+> * [Edit pom.xml](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/pom.xml)
+> * [Edit web.xml](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/web/WEB-INF/web.xml)
+> * [SwaggerBootstrap.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/SwaggerBootstrap.java)
+> * [ApiOriginFilter.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/ApiOriginFilter.java)
+> * [AllAuthorizationFilterImpl.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/AllAuthorizationFilterImpl.java)
 
 ### Bring in Generated Code - api
 
-> * [factories / PlanetsApiServiceFactory.java]()
-> * [impl / PlanetsApiServiceImpl.java]()
-> * [ApiException.java]()
-> * [ApiOriginFilter.java]()
-> * [ApiResponseMessage.java]()
-> * [Bootstrap.java]()
-> * [JacksonJsonProvider.java]()
-> * [NotFoundException.java]()
-> * [PlanetsApi.java]()
-> * [PlanetsApiService.java]()
-> * [RFC3339DateFormat.java]()
-> * [StringUtil.java]()
+> * [factories / PlanetsApiServiceFactory.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/factories/PlanetsApiServiceFactory.java)
+> * [impl / PlanetsApiServiceImpl.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/impl/PlanetsApiServiceImpl.java)
+> * [ApiException.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/ApiException.java)
+> * [ApiOriginFilter.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/ApiOriginFilter.java)
+> * [ApiResponseMessage.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/ApiResponseMessage.java)
+> * [Bootstrap.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/Bootstrap.java)
+> * [JacksonJsonProvider.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/JacksonJsonProvider.java)
+> * [NotFoundException.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/NotFoundException.java)
+> * [PlanetsApi.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/PlanetsApi.java)
+> * [PlanetsApiService.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/PlanetsApiService.java)
+> * [RFC3339DateFormat.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/RFC3339DateFormat.java)
+> * [StringUtil.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/api/StringUtil.java)
 
 ### Bring in Generated Code - model
 
-> * [Moon.java]()
-> * [Planet.java]()
+> * [Moon.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/model/Moon.java)
+> * [Planet.java](https://github.com/datumgeek/swagger-mongodb-test01/blob/master/src/main/java/com/technicalmedia/data/universe/model/Planet.java)
 
 ### Project Structure - Add dependent packages
 
