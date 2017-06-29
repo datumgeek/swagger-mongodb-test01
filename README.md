@@ -36,6 +36,10 @@ Add Maven Support
 
 ### Project Structure - Add swagger web contents
 
+### Run it
+
+![image](https://user-images.githubusercontent.com/22680176/27684934-4d3ec7e2-5c89-11e7-9d63-7797a1c67b5e.png)
+
 ### Return Hardwired Resrouce Data for Planets and Moons
 
 ### Angular Client - ag-grid to display Planets
