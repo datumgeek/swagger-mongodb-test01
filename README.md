@@ -40,7 +40,9 @@ Add Maven Support
 
 ![image](https://user-images.githubusercontent.com/22680176/27684934-4d3ec7e2-5c89-11e7-9d63-7797a1c67b5e.png)
 
-### Return Hardwired Resrouce Data for Planets and Moons
+### Return Resrouce Data for Planets and Moons
+
+![image](https://user-images.githubusercontent.com/22680176/27786634-2a0db102-5f9f-11e7-8628-d2af68a410d3.png)
 
 ### Angular Client - ag-grid to display Planets
 
