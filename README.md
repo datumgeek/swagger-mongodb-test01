@@ -44,6 +44,12 @@ Add Maven Support
 
 ![image](https://user-images.githubusercontent.com/22680176/27786634-2a0db102-5f9f-11e7-8628-d2af68a410d3.png)
 
+### Angular Client - create angular project
+
+Create the project
+
+Include the static content in the deployment
+
 ### Angular Client - ag-grid to display Planets
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
