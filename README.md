@@ -46,9 +46,33 @@ Add Maven Support
 
 ### Angular Client - create angular project
 
+Copy Path
+
+![image](https://user-images.githubusercontent.com/22680176/27790862-abd88e40-5faf-11e7-81e7-c90c3194ce5a.png)
+
+(install Git for Windows & ConEmu)
+
+Run ConEmu - Change to Folder - Install Angular CLI
+
+![image](https://user-images.githubusercontent.com/22680176/27791122-c82ef1e6-5fb0-11e7-881d-acfdec3106b6.png)
+
 Create the project
 
-Include the static content in the deployment
+![image](https://user-images.githubusercontent.com/22680176/27791204-2c9ecb24-5fb1-11e7-98c4-1b147e45f3aa.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27791381-f5011ef0-5fb1-11e7-9746-320452f4dc1a.png)
+
+Invoke Angular CLI build (in ConEmu) - watch mode will rebuild the bundle whenever the .ts, .scss, and .html files change
+
+![image](https://user-images.githubusercontent.com/22680176/27792188-c5f93ed6-5fb5-11e7-8e58-b0b49b4eab05.png)
+
+Add Angular bundle "dist" folder to web folder output
+
+![image](https://user-images.githubusercontent.com/22680176/27792499-3ba73916-5fb7-11e7-8996-20c4d2ea385f.png)
+
+Run it and view the output
+
+![image](https://user-images.githubusercontent.com/22680176/27792585-b53da2c4-5fb7-11e7-8e42-724f151db1ca.png)
 
 ### Angular Client - ag-grid to display Planets
 
