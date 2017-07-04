@@ -55,6 +55,7 @@
       <element id="directory" name="swagger">
         <element id="dir-copy" path="$PROJECT_DIR$/src/main/swagger" />
       </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/spa/dist" />
     </root>
   </artifact>
 </component>
