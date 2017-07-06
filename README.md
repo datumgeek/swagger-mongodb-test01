@@ -80,7 +80,15 @@ Run it and view the output
 
 update styles in `angular-cli.json`
 
-![image](https://user-images.githubusercontent.com/22680176/27895809-acaf6ada-61d2-11e7-841b-96e860a8c640.png)
+![image](https://user-images.githubusercontent.com/22680176/27906468-e04cd57a-6200-11e7-90e5-a64b0f7c32b8.png)
+
+### Install FontAwesome Icons
+
+![image](https://user-images.githubusercontent.com/22680176/27907323-761c5226-6204-11e7-816e-64cf365d74e8.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27907358-8f816030-6204-11e7-8a3f-ff69dd0f0e2c.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27907411-ca83116a-6204-11e7-91c7-7c5c8b013c46.png)
 
 ### Angular Client - ag-grid to display Planets
 
