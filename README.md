@@ -76,6 +76,11 @@ Run it and view the output
 
 ### Install bootstrap 4 alpha and ng-bootstrap
 
+![image](https://user-images.githubusercontent.com/22680176/27895396-b8fa0c30-61cf-11e7-8042-24e0f4e438dd.png)
+
+update styles in `angular-cli.json`
+
+![image](https://user-images.githubusercontent.com/22680176/27895809-acaf6ada-61d2-11e7-841b-96e860a8c640.png)
 
 ### Angular Client - ag-grid to display Planets
 
