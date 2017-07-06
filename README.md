@@ -90,6 +90,10 @@ update styles in `angular-cli.json`
 
 ![image](https://user-images.githubusercontent.com/22680176/27907411-ca83116a-6204-11e7-91c7-7c5c8b013c46.png)
 
+![image](https://user-images.githubusercontent.com/22680176/27907554-55180ef2-6205-11e7-8f51-f3fb37298878.png)
+
+### Add Menu and Routes
+
 ### Angular Client - ag-grid to display Planets
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
