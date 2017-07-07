@@ -1,0 +1,30 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+  <button class="navbar-toggler navbar-toggler-right"
+          type="button"
+          (click)="isNavbarCollapsed = !isNavbarCollapsed"
+          aria-controls="exCollapsingNavbar2"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand"
+     routerLink="/"
+     routerLinkActive="active">Swagger Mongo Test</a>
+  <div [ngbCollapse]="isNavbarCollapsed"
+       class="collapse navbar-collapse"
+       id="exCollapsingNavbar2">
+    <div class="navbar-nav mr-auto">
+      <a class="nav-item nav-link"
+         href="/rest/planets"
+         target="_blank">Planets JSON</a>
+      <a class="nav-item nav-link"
+         href="/swagger"
+         target="_blank">Web API</a>
+      <a class="nav-item nav-link"
+         routerLink="/planets"
+         routerLinkActive="active"
+         href="/planets">
+        Planets</a>
+    </div>
+  </div>
+</nav>
