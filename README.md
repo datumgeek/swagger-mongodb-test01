@@ -141,6 +141,22 @@ A better solution is described [here](http://javaee.ch/2017/04/12/how-to-solve-t
 
 > Flexbox solves the difficult problem of making a recursive division of the display that can grow to fill the remaining space.  This works vertically and horizontally.  In this section, we'll setup the application styles and component styles for the planets component so that when we place the ag-grid in the planets component (in the next section), it will grow to fill the available space.
 
+> We'll be looking at the main style sheet, the app component and the planets componnet and showing how to set up a div that can contain our ag-grid.  This div will resize to fill the available space, and so will our ag-grid that is contained within it (as we'll see in the next section).
+> * ***styles.scss***
+
+![image](https://user-images.githubusercontent.com/22680176/27979273-dee667fa-6331-11e7-945f-2c7aea97edab.png)
+
+> * app componnent (***app.component.html*** and ***app.component.scss***)
+
+![image](https://user-images.githubusercontent.com/22680176/27979361-ac0898ac-6332-11e7-999b-c500648c3982.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27979381-e4eccfc6-6332-11e7-8941-dce28ba1d9e4.png)
+
+> * planets component (***planets.component.html*** and ***planets.component.scss***)
+
+![image](https://user-images.githubusercontent.com/22680176/27979407-1e4f05f4-6333-11e7-9c97-dd5c3c1ab662.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27979457-77203086-6333-11e7-9a79-f25ae290b215.png)
 
 ### Angular Client - ag-grid to display Planets
 
