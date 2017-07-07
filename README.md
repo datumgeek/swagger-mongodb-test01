@@ -122,6 +122,21 @@ And VOILA !! :)
 
 ![image](https://user-images.githubusercontent.com/22680176/27941318-530a9d9a-628d-11e7-8055-7e0656238d92.png)
 
+### Add ***Deep Linking*** Support
+
+> Angular2+ does client-side routing.  The Angular app interprets the routes and displays the correct page.  An issue can arrise when the user starts at one of these client-side routes.  The web server tries to perform the route and fails.  What we want is to redirect such routes to the `index.html` page that loads the Angular app, and then when the Angular app loads, it will correctly route the request.
+
+Easy solution (but a bit clunky since it still returns the 404) is to add the following to the `web.xml`:
+
+```
+<error-page>
+    <error-code>404</error-code>
+    <location>/</location>
+</error-page>
+```
+
+A better solution is described [here](http://javaee.ch/2017/04/12/how-to-solve-the-redirection-404-error-in-angular-using-java/) using a spring controller.  A filter is probably the correct solution, but isn't explored here.
+
 ### Setup CSS Flexbox for Layout
 
 > Flexbox solves the difficult problem of making a recursive division of the display that can grow to fill the remaining space.  This works vertically and horizontally.  In this section, we'll setup the application styles and component styles for the planets component so that when we place the ag-grid in the planets component (in the next section), it will grow to fill the available space.
