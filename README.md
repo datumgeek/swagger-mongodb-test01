@@ -142,6 +142,9 @@ A better solution is described [here](http://javaee.ch/2017/04/12/how-to-solve-t
 > Flexbox solves the difficult problem of making a recursive division of the display that can grow to fill the remaining space.  This works vertically and horizontally.  In this section, we'll setup the application styles and component styles for the planets component so that when we place the ag-grid in the planets component (in the next section), it will grow to fill the available space.
 
 > We'll be looking at the main style sheet, the app component and the planets componnet and showing how to set up a div that can contain our ag-grid.  This div will resize to fill the available space, and so will our ag-grid that is contained within it (as we'll see in the next section).
+
+![image](https://user-images.githubusercontent.com/22680176/27979517-eaca7550-6333-11e7-81f9-e444b1c170aa.png)
+
 > * ***styles.scss***
 
 ![image](https://user-images.githubusercontent.com/22680176/27979273-dee667fa-6331-11e7-945f-2c7aea97edab.png)
