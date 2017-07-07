@@ -118,6 +118,10 @@ Add Menu and Planet Components to App Module.  Add Routes also.
 
 ![image](https://user-images.githubusercontent.com/22680176/27941181-9197f540-628c-11e7-927e-2c1ab8f46708.png)
 
+And VOILA !! :)
+
+![image](https://user-images.githubusercontent.com/22680176/27941318-530a9d9a-628d-11e7-8055-7e0656238d92.png)
+
 ### Angular Client - ag-grid to display Planets
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
