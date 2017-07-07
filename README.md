@@ -110,6 +110,10 @@ Generate Planets Component
 
 ![image](https://user-images.githubusercontent.com/22680176/27941255-f2ba0eb2-628c-11e7-851f-eb12ec818dd4.png)
 
+Look at Generated Components
+
+![image](https://user-images.githubusercontent.com/22680176/27941534-3657b178-628e-11e7-9edd-b6e8d77a570a.png)
+
 Add Menu and Planet Components to App Module.  Add Routes also.
 
 ![image](https://user-images.githubusercontent.com/22680176/27941181-9197f540-628c-11e7-927e-2c1ab8f46708.png)
