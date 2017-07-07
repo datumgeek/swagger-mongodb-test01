@@ -98,10 +98,6 @@ Generate Main Menu component
 
 ![image](https://user-images.githubusercontent.com/22680176/27908390-c3969896-6208-11e7-86e6-48a65fd47806.png)
 
-Add Main Menu component to App Component
-
-![image](https://user-images.githubusercontent.com/22680176/27908390-c3969896-6208-11e7-86e6-48a65fd47806.png)
-
 Add Menu Template (HTML)
 
 ![image](https://user-images.githubusercontent.com/22680176/27941070-dd4d3d0c-628b-11e7-8e2a-aab8c07cde32.png)
@@ -110,7 +106,7 @@ Add Menu and Router Outlet to App Template (HTML)
 
 ![image](https://user-images.githubusercontent.com/22680176/27941104-22ff8a58-628c-11e7-9f5a-28cf2083f0bb.png)
 
-Add Planets Component
+Generate Planets Component
 
 ![image](https://user-images.githubusercontent.com/22680176/27941255-f2ba0eb2-628c-11e7-851f-eb12ec818dd4.png)
 
