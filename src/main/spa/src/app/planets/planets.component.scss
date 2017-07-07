@@ -1,0 +1,20 @@
+:host {
+  flex: 1 0 auto;
+  position: relative;
+  background-color: #1c94c4;
+}
+
+.planet-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: steelblue;
+}
+
+.planet-content {
+  flex: 1 0 auto;
+  background-color: #0d3349;
+  color: white;
+}
