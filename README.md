@@ -149,7 +149,7 @@ A better solution is described [here](http://javaee.ch/2017/04/12/how-to-solve-t
 
 ![image](https://user-images.githubusercontent.com/22680176/27979273-dee667fa-6331-11e7-945f-2c7aea97edab.png)
 
-> * app componnent (***app.component.html*** and ***app.component.scss***)
+> * app component (***app.component.html*** and ***app.component.scss***)
 
 ![image](https://user-images.githubusercontent.com/22680176/27979361-ac0898ac-6332-11e7-999b-c500648c3982.png)
 
