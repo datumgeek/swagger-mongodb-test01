@@ -122,6 +122,11 @@ And VOILA !! :)
 
 ![image](https://user-images.githubusercontent.com/22680176/27941318-530a9d9a-628d-11e7-8055-7e0656238d92.png)
 
+### Setup CSS Flexbox for Layout
+
+> Flexbox solves the difficult problem of making a recursive division of the display that can grow to fill the remaining space.  This works vertically and horizontally.  In this section, we'll setup the application styles and component styles for the planets component so that when we place the ag-grid in the planets component (in the next section), it will grow to fill the available space.
+
+
 ### Angular Client - ag-grid to display Planets
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
