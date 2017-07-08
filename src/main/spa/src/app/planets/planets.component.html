@@ -2,5 +2,9 @@
   <p>
     planets works!
   </p>
-  <div class="planet-content">gri-hi-hi-hi-id !!!!!!!!!!</div>
+  <div class="planet-content">
+    <div class="card" *ngFor="let p of planets">
+      <h3>{{ p.name }}</h3>
+    </div>
+  </div>
 </div>

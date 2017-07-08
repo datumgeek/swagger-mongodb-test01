@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { PlanetsComponent } from './planets/planets.component';
 
+import { Client } from './universe-web-api-client';
+
 const routes: Routes = [
   { path: '', redirectTo: '/planets', pathMatch: 'full' },
   { path: 'planets', component: PlanetsComponent }
@@ -27,7 +29,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [ Client ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

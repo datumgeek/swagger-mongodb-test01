@@ -28,7 +28,7 @@ export class Client {
 
     constructor(@Inject(Http) http: Http, @Optional() @Inject(API_BASE_URL) baseUrl?: string) {
         this.http = http;
-        this.baseUrl = baseUrl ? baseUrl : "";
+        this.baseUrl = baseUrl ? baseUrl : "/rest";
     }
 
     /**
@@ -41,17 +41,17 @@ export class Client {
     listPlanets(take: number, skip: number, sort: string): Observable<Planet[] | null> {
         let url_ = this.baseUrl + "/planets?";
         if (take !== undefined)
-            url_ += "take=" + encodeURIComponent("" + take) + "&"; 
+            url_ += "take=" + encodeURIComponent("" + take) + "&";
         if (skip !== undefined)
-            url_ += "skip=" + encodeURIComponent("" + skip) + "&"; 
+            url_ += "skip=" + encodeURIComponent("" + skip) + "&";
         if (sort !== undefined)
-            url_ += "sort=" + encodeURIComponent("" + sort) + "&"; 
+            url_ += "sort=" + encodeURIComponent("" + sort) + "&";
         url_ = url_.replace(/[?&]$/, "");
 
         let options_ = {
             method: "get",
             headers: new Headers({
-                "Content-Type": "application/json", 
+                "Content-Type": "application/json",
                 "Accept": "application/json"
             })
         };
@@ -71,7 +71,7 @@ export class Client {
     }
 
     protected processListPlanets(response: Response): Observable<Planet[] | null> {
-        const status = response.status; 
+        const status = response.status;
 
         if (status === 200) {
             const _responseText = response.text();
@@ -127,7 +127,7 @@ export class Moon implements IMoon {
         data["name"] = this.name;
         data["orderFromPlanet"] = this.orderFromPlanet;
         data["size"] = this.size;
-        return data; 
+        return data;
     }
 }
 
@@ -185,7 +185,7 @@ export class Planet implements IPlanet {
             for (let item of this.moons)
                 data["moons"].push(item.toJSON());
         }
-        return data; 
+        return data;
     }
 }
 
@@ -199,9 +199,9 @@ export interface IPlanet {
 
 export class SwaggerException extends Error {
     message: string;
-    status: number; 
-    response: string; 
-    result: any; 
+    status: number;
+    response: string;
+    result: any;
 
     constructor(message: string, status: number, response: string, result: any) {
         super();
@@ -221,12 +221,12 @@ function throwException(message: string, status: number, response: string, resul
 }
 
 function blobToText(blob: Blob): Observable<string> {
-    return new Observable<string>((observer: any) => { 
-        let reader = new FileReader(); 
-        reader.onload = function() { 
+    return new Observable<string>((observer: any) => {
+        let reader = new FileReader();
+        reader.onload = function() {
             observer.next(this.result);
             observer.complete();
         }
-        reader.readAsText(blob); 
+        reader.readAsText(blob);
     });
 }
