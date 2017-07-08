@@ -2,9 +2,8 @@
 
 project illustrating Java swagger rest api, mongodb persistence, and angular4 client
 
-### See Also: [Generating REST web api service from api.yaml using maven plugin](https://github.com/datumgeek/swagger-codegen-test01#swagger-codegen-test01)
-
-### See Also: [Java Jersey REST Swagger Angular4+ Recipe](https://github.com/datumgeek/jersey-rest-test03/edit/master/README.md)
+> * See Also: [Generating REST web api service from api.yaml using maven plugin](https://github.com/datumgeek/swagger-codegen-test01#swagger-codegen-test01)
+> * See Also: [Java Jersey REST Swagger Angular4+ Recipe](https://github.com/datumgeek/jersey-rest-test03/edit/master/README.md)
 
 ### Project Setup
 
