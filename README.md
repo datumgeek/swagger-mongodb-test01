@@ -182,6 +182,10 @@ Edit NSwag TypeScript generator settings, then Generate TypeScript client
 
 ![image](https://user-images.githubusercontent.com/22680176/27984845-753e7c68-639d-11e7-8981-29143ba9a2ca.png)
 
+See the generated TypeScript client in the project
+
+![image](https://user-images.githubusercontent.com/22680176/27984930-2174a290-639f-11e7-961d-471e7a9ad92c.png)
+
 ### Angular Client - ag-grid to display Planets
 
 Right click ***spa*** folder and copy the path.  Launch ConEmu and `cd ` (paste)
@@ -189,6 +193,10 @@ Right click ***spa*** folder and copy the path.  Launch ConEmu and `cd ` (paste)
 Install ag-grid (and its angular helper)
 
 ![image](https://user-images.githubusercontent.com/22680176/27984672-f9adf74e-6398-11e7-9db4-1f1eb7a4c34b.png)
+
+Inject our generated TypeScript client (***universe-web-api-client.ts***) into the Planets component
+
+
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
 
