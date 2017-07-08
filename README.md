@@ -164,7 +164,31 @@ A better solution is described [here](http://javaee.ch/2017/04/12/how-to-solve-t
 
 ![image](https://user-images.githubusercontent.com/22680176/27979457-77203086-6333-11e7-9a79-f25ae290b215.png)
 
+### Generate TypeScript proxy client for our REST Web API
+
+Install [NSwag Studio](https://github.com/NSwag/NSwag#nswag-the-swagger-open-api-toolchain-for-net-web-api-and-typescript)
+
+Run the project in IntelliJ IDEA (we need a URL to our swagger.json file)
+
+Inspect the ***swagger.json*** data (this is metadata for our REST Web API)
+> * http://localhost:8080/swagger/
+> * http://localhost:8080/rest/swagger.json
+
+Run NSwag Studio, and enter ***swagger.json*** URL, and save the NSwag project
+
+![image](https://user-images.githubusercontent.com/22680176/27984780-9e133982-639b-11e7-94e4-c86bf619d34d.png)
+
+Edit NSwag TypeScript generator settings, then Generate TypeScript client
+
+![image](https://user-images.githubusercontent.com/22680176/27984845-753e7c68-639d-11e7-8981-29143ba9a2ca.png)
+
 ### Angular Client - ag-grid to display Planets
+
+Right click ***spa*** folder and copy the path.  Launch ConEmu and `cd ` (paste)
+
+Install ag-grid (and its angular helper)
+
+![image](https://user-images.githubusercontent.com/22680176/27984672-f9adf74e-6398-11e7-9db4-1f1eb7a4c34b.png)
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
 
