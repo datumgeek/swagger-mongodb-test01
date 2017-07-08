@@ -2,6 +2,10 @@
 
 project illustrating Java swagger rest api, mongodb persistence, and angular4 client
 
+### See Also: [Generating REST web api service from api.yaml using maven plugin](https://github.com/datumgeek/swagger-codegen-test01#swagger-codegen-test01)
+
+### See Also: [Java Jersey REST Swagger Angular4+ Recipe]https://github.com/datumgeek/jersey-rest-test03/edit/master/README.md)
+
 ### Project Setup
 
 Add Maven Support
@@ -40,7 +44,7 @@ Add Maven Support
 
 ![image](https://user-images.githubusercontent.com/22680176/27684934-4d3ec7e2-5c89-11e7-9d63-7797a1c67b5e.png)
 
-### Return Resrouce Data for Planets and Moons
+### Return Resource Data for Planets and Moons
 
 ![image](https://user-images.githubusercontent.com/22680176/27786634-2a0db102-5f9f-11e7-8628-d2af68a410d3.png)
 
