@@ -194,9 +194,21 @@ Install ag-grid (and its angular helper)
 
 ![image](https://user-images.githubusercontent.com/22680176/27984672-f9adf74e-6398-11e7-9db4-1f1eb7a4c34b.png)
 
-Inject our generated TypeScript client (***universe-web-api-client.ts***) into the Planets component
+To use Angular ***Dependency Injection*** (***DI***), we have to register our TypeScript client as a ***Provider***
 
+![image](https://user-images.githubusercontent.com/22680176/27989593-4701887a-63f9-11e7-9832-93d1eaa02326.png)
 
+Now we can inject our generated TypeScript client (***universe-web-api-client.ts***) into the Planets component.  Then we can use the injected client to call the web api and retrieve the planets data.
+
+![image](https://user-images.githubusercontent.com/22680176/27989579-dc088a8c-63f8-11e7-8b36-17a050918887.png)
+
+Once we have the data in the component's ***view model***, we can modify the template to display the data.  We'll use the ag-grid next, but for now we'll keep it simple to focus on the data itself.
+
+![image](https://user-images.githubusercontent.com/22680176/27989646-6cee0c60-63fa-11e7-9474-ab5062683f9d.png)
+
+And the stunning results !! ;)
+
+![image](https://user-images.githubusercontent.com/22680176/27989657-ca375886-63fa-11e7-9ce4-9071fd2e28ce.png)
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
 
