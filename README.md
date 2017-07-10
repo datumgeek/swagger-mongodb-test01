@@ -186,13 +186,7 @@ See the generated TypeScript client in the project
 
 ![image](https://user-images.githubusercontent.com/22680176/27984930-2174a290-639f-11e7-961d-471e7a9ad92c.png)
 
-### Angular Client - ag-grid to display Planets
-
-Right click ***spa*** folder and copy the path.  Launch ConEmu and `cd ` (paste)
-
-Install ag-grid (and its angular helper)
-
-![image](https://user-images.githubusercontent.com/22680176/27984672-f9adf74e-6398-11e7-9db4-1f1eb7a4c34b.png)
+### Angular Client - use Dependency Injection to fetch and display Planets list
 
 To use Angular ***Dependency Injection*** (***DI***), we have to register our TypeScript client as a ***Provider***
 
@@ -209,6 +203,18 @@ Once we have the data in the component's ***view model***, we can modify the tem
 And the stunning results !! ;)
 
 ![image](https://user-images.githubusercontent.com/22680176/27989657-ca375886-63fa-11e7-9ce4-9071fd2e28ce.png)
+
+### Angular Client - ag-grid to display Planets
+
+Right click ***spa*** folder and copy the path.  Launch ConEmu and `cd ` (paste)
+
+Install ag-grid (and its angular helper)
+
+![image](https://user-images.githubusercontent.com/22680176/27984672-f9adf74e-6398-11e7-9db4-1f1eb7a4c34b.png)
+
+Add ag-grid styles to ***angular-cli.json***
+
+
 
 ### Angular Client - ag-grid to expand a Planet to display its Moons
 
